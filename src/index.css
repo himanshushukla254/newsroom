@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+    color: #000000;
+}
+
+.navbar p {
+    display: flex;
+    align-items: right;
+    margin: auto;
+    font-size: 12px;
+    margin-left: 8rem;
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* news previews / list */
+.news-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+}
+
+.news-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-preview h2 {
+    font-size: 20px;
+    color: #20b68c;
+    margin-bottom: 8px;
+}
+
+.news-preview a {
+    text-decoration: none;
+}
+
+.news-list {
+    display: grid;
+    grid-template-columns: 14rem 14rem 14rem;
+    grid-gap: 1rem;
+    grid-auto-flow: row;
+}
+
+.social-share {
+    position: relative;
+    top: 15px;
+    right: 0px;
+    display: flex;
+    gap: 10px;
+}
