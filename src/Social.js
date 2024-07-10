@@ -1,4 +1,5 @@
 import { FacebookShareButton, TwitterShareButton, FacebookIcon, TwitterIcon } from "react-share";
+
 function Social(props) {
     const shareUrl = props.shareUrl;
     const title = props.title;

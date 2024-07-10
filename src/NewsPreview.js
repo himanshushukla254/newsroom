@@ -1,6 +1,5 @@
 import Social from "./Social";
 
-
 function NewsPreview(props) {
     const feeds = props.feeds;
     return (
